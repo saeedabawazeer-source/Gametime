@@ -27,8 +27,3 @@ dist-ssr
 .env
 .env.local
 .env.production
-
-# Large video files
-public/*.mp4
-public/*.webm
-public/*.mov
