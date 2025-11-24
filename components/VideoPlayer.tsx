@@ -101,12 +101,15 @@ const VideoPlayer: React.FC<VideoPlayerProps> = ({ earnedTimeSeconds, onConsumeT
 
         {/* Play Overlay (Center) - Visible when paused and has time */}
         {!isPlaying && hasTime && (
-          <div className="absolute inset-0 z-10 flex items-center justify-center pointer-events-none">
-            <div className="w-16 h-16 bg-black/50 rounded-full flex items-center justify-center backdrop-blur-sm border-2 border-white/30">
+          <div className="absolute inset-0 z-10 flex items-center justify-center">
+            <button
+              onClick={togglePlay}
+              className="w-16 h-16 bg-black/50 rounded-full flex items-center justify-center backdrop-blur-sm border-2 border-white/30 hover:bg-black/70 hover:scale-110 transition-all cursor-pointer"
+            >
               <svg className="w-8 h-8 text-white ml-1" fill="currentColor" viewBox="0 0 24 24">
                 <path d="M8 5v14l11-7z" />
               </svg>
-            </div>
+            </button>
           </div>
         )}
 
