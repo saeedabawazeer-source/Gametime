@@ -9,8 +9,8 @@ export const IMAGES = {
   SHIRT_IN_CAN: "https://images.unsplash.com/photo-1576566588028-4147f3842f27?auto=format&fit=crop&w=800&q=80", // Folded T-Shirts / Canned Goods vibe
 };
 
-// Barcelona vs Real Madrid highlights video
-export const SAMPLE_VIDEO_URL = "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4";
+// Real Madrid 0 vs 4 Barcelona - El Clásico
+export const SAMPLE_VIDEO_URL = "/el-clasico.mp4";
 
 export const AD_BLOCKS_DATA = [
   { id: 1, title: "Watch 5 Ads for 30 Mins", progress: 60, buttonText: "Watch Now", adsCount: 5, rewardMinutes: 30 },
